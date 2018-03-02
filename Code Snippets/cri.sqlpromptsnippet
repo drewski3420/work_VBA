@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>cri</Title>
+      <Shortcut>cri</Shortcut>
+      <Description>create index</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>tbl</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+        <Literal>
+          <ID>cols</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[CREATE INDEX idx_$tbl$1 on #$tbl$ ($cols$)]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

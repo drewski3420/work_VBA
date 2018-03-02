@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>IJ</Title>
+      <Shortcut>IJ</Shortcut>
+      <Description>INNER JOIN </Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>TBL</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[INNER JOIN $TBL$ (NOLOCK) ON ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

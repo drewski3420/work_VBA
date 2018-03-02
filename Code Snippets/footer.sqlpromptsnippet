@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>footer</Title>
+      <Shortcut>footer</Shortcut>
+      <Description>Create Logging footer for procs</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SET @logTime = getDate()
+EXEC sysup.procedure_log_end @@procID,@logTime]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

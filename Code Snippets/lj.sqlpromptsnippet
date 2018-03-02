@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>lj</Title>
+      <Shortcut>lj</Shortcut>
+      <Description>left join </Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>TBL</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[LEFT JOIN $TBL$ WITH (NOLOCK) ON ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

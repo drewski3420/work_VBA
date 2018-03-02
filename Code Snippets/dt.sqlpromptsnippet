@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>dt</Title>
+      <Shortcut>dt</Shortcut>
+      <Description>drop temp if exists</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>tbl</ID>
+          <ToolTip />
+          <Default />
+        </Literal>
+      </Declarations>
+      <Code Language="sql"><![CDATA[IF object_Id('tempdb..#$tbl$') IS NOT NULL BEGIN DROP TABLE #$tbl$ end
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

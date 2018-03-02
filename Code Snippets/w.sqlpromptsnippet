@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>w</Title>
+      <Shortcut>w</Shortcut>
+      <Description>where</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[WHERE 1=1
+	AND ]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

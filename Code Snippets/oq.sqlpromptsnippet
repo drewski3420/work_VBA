@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets>
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>oq</Title>
+      <Shortcut>oq</Shortcut>
+      <Description>OPENQUERY</Description>
+      <Author />
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations />
+      <Code Language="sql"><![CDATA[SELECT
+	*
+FROM openQuery([SFHOUSSISP02],'')
+
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
